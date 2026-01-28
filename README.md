@@ -9,3 +9,14 @@ Build log of a basic EEG signal acquisition prototype. Raw signals first, refine
 - Stopping here to add VCAP decoupling and reference caps next
 
 Approach: slow, staged hardware bring-up before any SPI or signal work.
+
+## Jan 28 – Session 2 (Power + Internals)
+
+- AVSS hard-tied to ground (critical fix)-Earlier main rail was not tied to GND.
+- AVDD (5V) and DVDD (3.3V) verified stable
+- VCAP decoupling populated per datasheet -Voltage ~0.16V on each.
+- Internal reference enabled
+- Internal oscillator selected (CLKSEL) -Connected to 3.3V
+
+Chip powers up stable and cool(almost).
+Next: minimal SPI bring-up.
