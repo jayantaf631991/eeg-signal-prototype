@@ -27,5 +27,9 @@ Next: minimal SPI bring-up.
 - RESET, PWDN, START correctly sequenced
 - SPI MODE1 @ 100 kHz
 - ADS1299 ID register read successfully (0x03)
+- Internal test signal enabled
+- CH1 routed to test generator
+- Stable 27-byte data frames observed
+- ADC conversion verified
 
-Digital interface confirmed working.
+Hardware bring-up complete. Ready for data parsing.
