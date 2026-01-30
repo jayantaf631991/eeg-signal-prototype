@@ -20,3 +20,12 @@ Approach: slow, staged hardware bring-up before any SPI or signal work.
 
 Chip powers up stable and cool(almost).
 Next: minimal SPI bring-up.
+
+## Jan 28 – Session 3 (SPI VERIFIED)
+
+- CS control verified electrically
+- RESET, PWDN, START correctly sequenced
+- SPI MODE1 @ 100 kHz
+- ADS1299 ID register read successfully (0x03)
+
+Digital interface confirmed working.
